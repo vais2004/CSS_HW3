@@ -1,0 +1,125 @@
+.container{
+    margin: 1rem;
+}
+
+/* question 1 */
+.absoluteBox{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    box-sizing: border-box;
+}
+.greenBox{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+/* question 2 */
+.absoluteBoxTwo{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenBoxTwo{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+/* question 3 */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.navItems{
+    list-style: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+
+/* question 4 */
+
+.cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.card{
+    
+    border:1px solid goldenrod; 
+    border-radius: 5px;
+    max-width: 200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+ 
+.img{
+    border-radius: 100px;
+}
+
+.content{
+    text-align: center;
+}
+
+/* question 5 */
+.card2{ 
+    border:1px solid lightgray; 
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.button1{
+    background-color:beige; 
+    border-color: beige; 
+    border-style: none; 
+    padding: 5px;
+}
+
+/* question 6 */
+.card3{ 
+    border:1px solid lightgray; 
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    align-items: center; 
+    gap: 1rem;
+}
+.button2{
+    background-color:blue; 
+    border-color: blue;
+    color: white; 
+    border-style: none; 
+    padding: 5px;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 0.5rem;
+}
+
