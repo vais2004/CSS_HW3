@@ -184,8 +184,10 @@
 }
 
 .footerdiv2{
+    padding-top: 1rem;
+    padding-left: 4.5rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
+    flex-wrap: wrap; 
+    /* justify-content:center; */
     text-align: start;
 }
